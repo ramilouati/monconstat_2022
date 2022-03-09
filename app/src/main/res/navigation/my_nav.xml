@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/geolocaliCre">
+    <fragment
+        android:id="@+id/geolocaliCre"
+        android:name="creation.geolocaliCre"
+        android:label="fragment_geolocali_cre"
+        tools:layout="@layout/fragment_geolocali_cre" >
+        <action
+            android:id="@+id/action_geolocaliCre_to_etap3"
+            app:destination="@id/etap3" />
+        <action
+            android:id="@+id/action_geolocaliCre_to_hmaps"
+            app:destination="@id/hmaps" />
+        <action
+            android:id="@+id/action_geolocaliCre_to_ggmaps"
+            app:destination="@id/ggmaps" />
+    </fragment>
+    <fragment
+        android:id="@+id/steamocieteAssurances"
+        android:name="creation.SteamocieteAssurances"
+        android:label="fragment_steamociete_assurances"
+        tools:layout="@layout/fragment_steamociete_assurances" >
+        <action
+            android:id="@+id/action_steamocieteAssurances_to_creConducteur"
+            app:destination="@id/creConducteur" />
+        <action
+            android:id="@+id/action_steamocieteAssurances_to_etap52"
+            app:destination="@id/etap5" />
+    </fragment>
+    <fragment
+        android:id="@+id/creConducteur"
+        android:name="com.example.monconstat.CreConducteur"
+        android:label="fragment_cre_conducteur"
+        tools:layout="@layout/fragment_cre_conducteur" >
+        <action
+            android:id="@+id/action_creConducteur_to_identiteVehicule"
+            app:destination="@id/identiteVehicule" />
+        <action
+            android:id="@+id/action_creConducteur_to_steamocieteAssurances"
+            app:destination="@id/steamocieteAssurances" />
+    </fragment>
+    <fragment
+        android:id="@+id/identiteVehicule"
+        android:name="creation.identiteVehicule"
+        android:label="fragment_identite_vehicule"
+        tools:layout="@layout/fragment_identite_vehicule" >
+        <action
+            android:id="@+id/action_identiteVehicule_to_creConducteur"
+            app:destination="@id/creConducteur" />
+        <action
+            android:id="@+id/action_identiteVehicule_to_pointDeChoc"
+            app:destination="@id/pointDeChoc" />
+    </fragment>
+    <fragment
+        android:id="@+id/pointDeChoc"
+        android:name="creation.PointDeChoc"
+        android:label="fragment_point_de_choc"
+        tools:layout="@layout/fragment_point_de_choc" >
+        <action
+            android:id="@+id/action_pointDeChoc_to_identiteVehicule"
+            app:destination="@id/identiteVehicule" />
+        <action
+            android:id="@+id/action_pointDeChoc_to_cameraChoc"
+            app:destination="@id/cameraChoc" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraChoc"
+        android:name="creation.CameraChoc"
+        android:label="fragment_camera_choc"
+        tools:layout="@layout/fragment_camera_choc" >
+        <action
+            android:id="@+id/action_cameraChoc_to_photoVideo"
+            app:destination="@id/photoVideo" />
+    </fragment>
+    <fragment
+        android:id="@+id/observation"
+        android:name="creation.observation"
+        android:label="fragment_observation"
+        tools:layout="@layout/fragment_observation" >
+        <action
+            android:id="@+id/action_observation_to_videoPanoramique"
+            app:destination="@id/videoPanoramique" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoVideo"
+        android:name="creation.PhotoVideo"
+        android:label="fragment_photo_video"
+        tools:layout="@layout/fragment_photo_video" >
+        <action
+            android:id="@+id/action_photoVideo_to_cameraChoc"
+            app:destination="@id/cameraChoc" />
+        <action
+            android:id="@+id/action_photoVideo_to_etap12_1"
+            app:destination="@id/etap12_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoPanoramique"
+        android:name="creation.videoPanoramique"
+        android:label="fragment_video_panoramique"
+        tools:layout="@layout/fragment_video_panoramique" >
+        <action
+            android:id="@+id/action_videoPanoramique_to_observation"
+            app:destination="@id/observation" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap12_1"
+        android:name="com.example.monconstat.etap12_1"
+        android:label="fragment_etap12_1"
+        tools:layout="@layout/fragment_etap12_1" >
+        <action
+            android:id="@+id/action_etap12_1_to_etap12_2"
+            app:destination="@id/etap12_2" />
+        <action
+            android:id="@+id/action_etap12_1_to_cameraChoc"
+            app:destination="@id/cameraChoc" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap12_2"
+        android:name="com.example.monconstat.etap12_2"
+        android:label="fragment_etap12_2"
+        tools:layout="@layout/fragment_etap12_2" >
+        <action
+            android:id="@+id/action_etap12_2_to_etap12_1"
+            app:destination="@id/etap12_1" />
+        <action
+            android:id="@+id/action_etap12_2_to_etap12_3"
+            app:destination="@id/etap12_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap12_3"
+        android:name="com.example.monconstat.etap12_3"
+        android:label="fragment_etap12_3"
+        tools:layout="@layout/fragment_etap12_3" >
+        <action
+            android:id="@+id/action_etap12_3_to_etap12_2"
+            app:destination="@id/etap12_2" />
+        <action
+            android:id="@+id/action_etap12_3_to_videoPanoramique"
+            app:destination="@id/videoPanoramique" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap3"
+        android:name="com.example.monconstat.etap3"
+        android:label="fragment_etap3"
+        tools:layout="@layout/fragment_etap3" >
+        <action
+            android:id="@+id/action_etap3_to_geolocaliCre"
+            app:destination="@id/geolocaliCre" />
+        <action
+            android:id="@+id/action_etap3_to_etap4"
+            app:destination="@id/etap4" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap4"
+        android:name="com.example.monconstat.etap4"
+        android:label="fragment_etap4"
+        tools:layout="@layout/fragment_etap4" >
+        <action
+            android:id="@+id/action_etap4_to_etap3"
+            app:destination="@id/etap3" />
+        <action
+            android:id="@+id/action_etap4_to_etap5"
+            app:destination="@id/etap5" />
+    </fragment>
+    <fragment
+        android:id="@+id/etap5"
+        android:name="com.example.monconstat.etap5"
+        android:label="fragment_etap5"
+        tools:layout="@layout/fragment_etap5" >
+        <action
+            android:id="@+id/action_etap5_to_steamocieteAssurances"
+            app:destination="@id/steamocieteAssurances" />
+        <action
+            android:id="@+id/action_etap5_to_insert_temoin"
+            app:destination="@id/insert_temoin" />
+        <action
+            android:id="@+id/action_etap5_to_affiche_temoin"
+            app:destination="@id/affiche_temoin" />
+        <action
+            android:id="@+id/action_etap5_to_etap4"
+            app:destination="@id/etap4" />
+    </fragment>
+    <fragment
+        android:id="@+id/hmaps"
+        android:name="com.example.monconstat.hmaps"
+        android:label="fragment_hmaps"
+        tools:layout="@layout/fragment_hmaps" >
+        <action
+            android:id="@+id/action_hmaps_to_etap3"
+            app:destination="@id/etap3" />
+    </fragment>
+    <fragment
+        android:id="@+id/ggmaps"
+        android:name="com.example.monconstat.ggmaps"
+        android:label="fragment_ggmaps"
+        tools:layout="@layout/fragment_ggmaps" >
+        <action
+            android:id="@+id/action_ggmaps_to_etap3"
+            app:destination="@id/etap3" />
+    </fragment>
+    <fragment
+        android:id="@+id/insert_temoin"
+        android:name="com.example.monconstat.insert_temoin"
+        android:label="fragment_insert_temoin"
+        tools:layout="@layout/fragment_insert_temoin" >
+        <action
+            android:id="@+id/action_insert_temoin_to_etap5"
+            app:destination="@id/etap5" />
+    </fragment>
+    <fragment
+        android:id="@+id/affiche_temoin"
+        android:name="com.example.monconstat.affiche_temoin"
+        android:label="fragment_affiche_temoin"
+        tools:layout="@layout/fragment_affiche_temoin" >
+        <action
+            android:id="@+id/action_affiche_temoin_to_etap5"
+            app:destination="@id/etap5" />
+    </fragment>
+    <fragment
+        android:id="@+id/insert_temoin2"
+        android:name="com.example.monconstat.insert_temoin2"
+        android:label="fragment_insert_temoin2"
+        tools:layout="@layout/fragment_insert_temoin2" />
+    <fragment
+        android:id="@+id/insert_temoin3"
+        android:name="com.example.monconstat.insert_temoin3"
+        android:label="fragment_insert_temoin3"
+        tools:layout="@layout/fragment_insert_temoin3" />
+    <fragment
+        android:id="@+id/insert_temoin4"
+        android:name="com.example.monconstat.insert_temoin4"
+        android:label="fragment_insert_temoin4"
+        tools:layout="@layout/fragment_insert_temoin4" />
+    <fragment
+        android:id="@+id/insert_temoin5"
+        android:name="com.example.monconstat.insert_temoin5"
+        android:label="fragment_insert_temoin5"
+        tools:layout="@layout/fragment_insert_temoin5" />
+    <fragment
+        android:id="@+id/affiche_temoin2"
+        android:name="com.example.monconstat.affiche_temoin2"
+        android:label="fragment_affiche_temoin2"
+        tools:layout="@layout/fragment_affiche_temoin2" />
+    <fragment
+        android:id="@+id/affiche_temoin3"
+        android:name="com.example.monconstat.affiche_temoin3"
+        android:label="fragment_affiche_temoin3"
+        tools:layout="@layout/fragment_affiche_temoin3" />
+    <fragment
+        android:id="@+id/affiche_temoin4"
+        android:name="com.example.monconstat.affiche_temoin4"
+        android:label="fragment_affiche_temoin4"
+        tools:layout="@layout/fragment_affiche_temoin4" />
+    <fragment
+        android:id="@+id/affiche_temoin5"
+        android:name="com.example.monconstat.affiche_temoin5"
+        android:label="fragment_affiche_temoin5"
+        tools:layout="@layout/fragment_affiche_temoin5" />
+    <fragment
+        android:id="@+id/etape8"
+        android:name="com.example.monconstat.etape8"
+        android:label="fragment_etape8"
+        tools:layout="@layout/fragment_etape8" />
+    <fragment
+        android:id="@+id/degat2Fragment"
+        android:name="com.example.monconstat.Degat2Fragment"
+        android:label="fragment_degat2"
+        tools:layout="@layout/fragment_degat2" />
+    <activity
+        android:id="@+id/imgveh"
+        android:name="com.example.monconstat.Imgveh"
+        android:label="activity_imgveh"
+        tools:layout="@layout/activity_imgveh" />
+    <fragment
+        android:id="@+id/mainActivity2"
+        android:name="com.example.monconstat.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.monconstat.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

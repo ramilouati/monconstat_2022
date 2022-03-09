@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagat_blue_203"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="222dp"
+        android:layout_height="86dp"
+        android:background="#00D6B5B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/monconstalogo" />
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="169dp"
+        android:layout_height="70dp"
+        android:background="@drawable/amiassurances_new_logo"
+        android:cropToPadding="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="299dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/input_style"
+        android:drawableStart="@drawable/ic_userstart"
+        android:drawableLeft="@drawable/ic_userstart"
+        android:drawablePadding="12dp"
+
+        android:ems="10"
+        android:hint="UserCompte"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="301dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/input_style"
+        android:drawableStart="@drawable/ic_keystart"
+        android:drawableLeft="@drawable/ic_keystart"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user"
+
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Connexion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="60dp"
+        android:text="CLIQUER ICI"
+        android:textColor="#17AAEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/info" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="48dp"
+        android:text="pour plus d'information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagat_blue_203"
+    tools:context=".Recevoir">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Générer le code et partage le avec l'autre utilisateur "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <Button
+        android:id="@+id/GenCode"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/custom_input"
+        android:shadowColor="#000000"
+        android:text="generator Code"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/codeR"
+            android:layout_width="314dp"
+            android:layout_height="match_parent"
+            android:background="#FCF5F8F5"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="Générer un code"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="243dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="58dp"
+        android:background="@mipmap/mmmm12_foreground"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="172dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="167dp"
+        android:background="@drawable/custom_button_red"
+        android:text="Prét"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GenCode" />
+</androidx.constraintlayout.widget.ConstraintLayout>

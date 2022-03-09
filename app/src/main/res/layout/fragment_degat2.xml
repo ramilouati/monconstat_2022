@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Degat2Fragment">
+
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="221dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/prec4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getdate5">
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="205dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/light"
+            android:text="Véhicule autres que A et B"
+            android:textColor="#020202"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/R3"
+            android:layout_width="154dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="324dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="65dp"
+                android:layout_height="48dp"
+                android:text="OUI"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="71dp"
+                android:layout_height="49dp"
+                android:text="NON"
+                android:textSize="12sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/prec4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRÉCÉDENT"
+        android:textColor="#5e79a1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/getdate5"
+        android:layout_width="289dp"
+        android:layout_height="47dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#5e79a1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/fistToGeo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUIVANT >"
+        android:textColor="#5e79a1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

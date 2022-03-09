@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagat_blue103"
+    tools:context=".profil">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp">
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/pcin13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Cin :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="237dp" />
+
+                    <TextView
+                        android:id="@+id/cin13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="237dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/pcin2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Nom :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="266dp" />
+
+                    <TextView
+                        android:id="@+id/cin2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="266dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Prenom :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="295dp" />
+
+                    <TextView
+                        android:id="@+id/cin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="295dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Adresse :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="324dp" />
+
+                    <TextView
+                        android:id="@+id/cin4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="324dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Email :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="353dp" />
+
+                    <TextView
+                        android:id="@+id/cin5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:inputType="textEmailAddress"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="353dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="3dp"
+                        android:text="Type :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="382dp" />
+
+                    <TextView
+                        android:id="@+id/cin6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="382dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="N° permis :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="411dp" />
+
+                    <TextView
+                        android:id="@+id/cin7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="411dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Delivré le :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="440dp" />
+
+                    <TextView
+                        android:id="@+id/cin8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="440dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Civilité :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="469dp" />
+
+                    <TextView
+                        android:id="@+id/cin9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="469dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pcin10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="Tel :"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="100dp"
+                        tools:layout_editor_absoluteY="498dp" />
+
+                    <TextView
+                        android:id="@+id/cin10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:inputType="phone"
+                        android:padding="3dp"
+                        android:text="empty"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="227dp"
+                        tools:layout_editor_absoluteY="498dp" />
+                </TableRow>
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/btnback"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/flech" />
+
+    <Button
+        android:id="@+id/btnmp"
+        android:layout_width="191dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Modifer Mot de passe"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+</androidx.constraintlayout.widget.ConstraintLayout>

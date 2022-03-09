@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagat"
+    tools:context="viewinfoR.RV_assP">
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Inforamtion de Personne"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prefirst13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Precedent"
+        android:textColor="#5e79a1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <ImageView
+        android:id="@+id/btnback3"
+        android:layout_width="31dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/flech" />
+
+    <TextView
+        android:id="@+id/suvitAs14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Suivant"
+        android:textColor="#5e79a1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="0dp"
+        android:layout_height="254dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="395dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Delivre le"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.089"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Permis de conduire N"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Adresse"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PA12" />
+
+            <TextView
+                android:id="@+id/PA12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Prenom"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="Nom"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.082"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.276" />
+
+            <TextView
+                android:id="@+id/evnom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="112dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView73"
+                app:layout_constraintStart_toEndOf="@+id/textView73"
+                app:layout_constraintTop_toTopOf="@+id/textView73"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/rvprenom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="93dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/PA12"
+                app:layout_constraintStart_toEndOf="@+id/PA12"
+                app:layout_constraintTop_toTopOf="@+id/PA12"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/rvadress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView74"
+                app:layout_constraintStart_toEndOf="@+id/textView74"
+                app:layout_constraintTop_toTopOf="@+id/textView74"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/rvpc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView75"
+                app:layout_constraintStart_toEndOf="@+id/textView75"
+                app:layout_constraintTop_toTopOf="@+id/textView75"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/rvd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="92dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView77"
+                app:layout_constraintStart_toEndOf="@+id/textView77"
+                app:layout_constraintTop_toTopOf="@+id/textView77"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="254dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Delivre le"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.089"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Permis de conduire N"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.113"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Adresse"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PA14" />
+
+            <TextView
+                android:id="@+id/PA14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Prenom"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="Nom"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.082"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.276" />
+
+            <TextView
+                android:id="@+id/evnom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="112dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView78"
+                app:layout_constraintStart_toEndOf="@+id/textView78"
+                app:layout_constraintTop_toTopOf="@+id/textView78" />
+
+            <TextView
+                android:id="@+id/rvprenom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="93dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/PA14"
+                app:layout_constraintStart_toEndOf="@+id/PA14"
+                app:layout_constraintTop_toTopOf="@+id/PA14" />
+
+            <TextView
+                android:id="@+id/rvd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="92dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView81"
+                app:layout_constraintStart_toEndOf="@+id/textView81"
+                app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+            <TextView
+                android:id="@+id/rvpc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView80"
+                app:layout_constraintStart_toEndOf="@+id/textView80"
+                app:layout_constraintTop_toTopOf="@+id/textView80" />
+
+            <TextView
+                android:id="@+id/rvadress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:fontFamily="@font/aldrich"
+                android:text="..."
+                app:layout_constraintBottom_toBottomOf="@+id/textView79"
+                app:layout_constraintStart_toEndOf="@+id/textView79"
+                app:layout_constraintTop_toTopOf="@+id/textView79" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

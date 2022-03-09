@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254010099404",
+    "project_id": "luminous-figure-298908",
+    "storage_bucket": "luminous-figure-298908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254010099404:android:677bebbcde1bfde7caa469",
+        "android_client_info": {
+          "package_name": "com.example.monconstat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254010099404-hffllrg8l3p2ff3orij3qi2nm4i59m6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf4Zof5OFldc38rrZ5kkI1yWxElZCOQV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254010099404-hffllrg8l3p2ff3orij3qi2nm4i59m6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

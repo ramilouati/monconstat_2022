@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etap3">
+
+
+    <TextView
+        android:id="@+id/prec3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRÉCÉDENT"
+        android:textColor="#5e79a1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/fistToGeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUIVANT >"
+        android:textColor="#5e79a1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupe"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51">
+
+        <RadioButton
+            android:id="@+id/degatsoui"
+            android:layout_width="80dp"
+            android:layout_height="42dp"
+            android:text="OUI"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="42dp"
+            android:text="NON"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/light"
+        android:text="Personnes Blessées"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/getdate4"
+        android:layout_width="289dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#5e79a1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="174dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="7dp"
+        android:text="même léger(s)"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroupe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+</androidx.constraintlayout.widget.ConstraintLayout>

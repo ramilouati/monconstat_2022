@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etap12_2">
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="312dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Mettre une croix ( X ) dans chacune des cases utiles pour préciser le croquis"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="614dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView105"
+        tools:layout_editor_absoluteX="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="6. Arrêt de circulation"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="7. Frottement sans changement de file"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="248dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="8. Heurtait â l'arriéré, en roulent dans le même sens et sur une même file  "
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="238dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="9. Roulait dans le même sens et sur   une file différente "
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="10. Changeait de file "
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="11. Doublait"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="48dp"
+
+                android:layout_height="48dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="12. Virait à droite  "
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/aldrich"
+                android:text="13. Virait à gauche"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/aldrich" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/backToL4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="PRÉCÉDENT"
+        android:textColor="#5e79a1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <TextView
+        android:id="@+id/svPoD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="SUIVANT >"
+        android:textColor="#5e79a1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
