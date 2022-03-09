@@ -116,6 +116,7 @@ if (bt1.equals("1")){
                   else{
                     e = "e";
 
+
                     Toast.makeText(Accueil.this,e,Toast.LENGTH_LONG).show();
                    }
 
